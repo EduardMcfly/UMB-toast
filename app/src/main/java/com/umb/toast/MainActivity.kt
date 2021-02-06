@@ -16,4 +16,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+
+    fun showToast(view: View) {
+        Toast.makeText(this, "This is my Toast message!", Toast.LENGTH_LONG).show();
+    }
 }
